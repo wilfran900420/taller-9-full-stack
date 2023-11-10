@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link de la fuente jost, se pone de primeras-->
+    <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+    <!--Linkear el archivo de fuentes comunes-->
+    <link rel="stylesheet" href="./styles/common-styles.css">
+    <!--Link hacie el archivo css de header--> 
+    <link rel="stylesheet" href="./styles/header-styles.css">
+    <!--link de estilos ccs de banner-->
+    <link rel="stylesheet" href="./styles/banner-styles.css">
+    <link rel="stylesheet" href="./styles/section-1-styles.css">
+    <link rel="stylesheet" href="./styles/section-2-styles.css">
+    <link rel="stylesheet" href="./styles/footer-styles.css">
     <title>Document</title>
 </head>
 <body>
     <header>
 
-<div class="header_navigator">
+<div class="header__navigator">
 <img src="./public/images/header-logo.png" alt="header logo">
-</div>
+
 <nav>
     <ul>
         <li><a href="#footer">Cursos</a></li>
@@ -19,44 +30,48 @@
         <li><a href="#footer">Ayuda</a></li>
     </ul>
 </nav>
+</div>
 
-<div class="header_settings">
+<div class="header__settings">
 
     <div class="languaje">
     <img src="./public/images/header-world.png" alt="header world">
     <span>Español</span>
     </div>
+    <div>
     <button>Ingresar</button>
-</div>
+    </div>
     </header>
     <main>
         <section id="banner">
             <div class="banner_inf">    
-                <div class="banner _text">
-                    <h1>aprovecha la era digital , toma clases en linea</h1>
-                    <p>Toma los cursos mas importantes  de tecnologia con claes en linea, 
+                <div class="banner__text">
+                    <h1>Aprovecha la era digital, 
+                        toma clases en linea
+                    </h1>
+                    <p>Toma los cursos mas importantes  de tecnologia con clases en linea, 
                         donde podras tener acceso a contenido actualizado desde la comodidad 
                         de tu casa y a tu ritmo 
                     </p>
                 </div>
                 <div class="banner_buttons">
-                    <button>Saber mas</button>
-                    <button>Planes</button>
+                    <button class="button--orange">Saber mas</button>
+                    <button class="button--transparent">Planes</button>
                 </div>    
             </div> 
         <img src="./public/images/banner-online.png" alt="banner online">
 
         </section>
-        <section id="section-1"></section>
-        <div class="section__1">
-        <h2>porque elegirnos a nosotros</h2>
+        <section id="section-1">
+        <div class="section-1__inf">
+        <h2>Porque elegirnos a nosotros</h2>
         <p>
             Somos una universidad en constante actualizacion y
-             nose gusta el cambio, te enseñamos tecnologías contemporaneas  
+             nos gusta el cambio, te enseñamos tecnologías contemporaneas  
         </p>
         </div>
         
-        <div class="card 1">
+        <div class="section-1__card">
             <img src="./public/images/section1-education.png" 
             width="120px"
             alt="education"
@@ -65,25 +80,30 @@
           <h3>virtualidad y educacion</h3>
         </div>
 
-        <div class="card 2">
+        <div class="section-1__card section-1__card-down">
+            <h3>Alcance de objetivos</h3>
         <img src="./public/images/section1-goals.png" 
         width="120px"
         alt="goals"
         height="120px"
         >
-       <h3>virtualidad y educacion</h3>
         </div>                
 
-        <div class="card 3">
+         <!--Se le ponen dos clases a la card 2-->
+        <div class="section-1__card ">
+           
         <img src="./public/images/section1-teach.png" 
         width="120px"
         alt="teach"
         height="120px"
         >
-        <h3>virtualidad y educacion</h3>
+        <h3>Clases inclusivas</h3>
         </div>
+
+    </section>
         
-        <section id="section-2"></section>
+        <section id="section-2">
+
         <div class="section-2__info"> 
             <img src="./public/images/section2-tools.png" 
             width="500px"
@@ -92,40 +112,46 @@
             >
             <div>
                 <h2>Brindamos herramientas para que tu aprendizaje</h2>
-                <h2>sea efectivo</h2>
+                <h2 class="tittle_pink">sea efectivo</h2>
                     <p>
                     Las herramientas digitales son nuestras aliadas y 
                     aprovechamos cada una de estas para brindarte la
                     mejor experiencia                    
                     </p>
-                    <button>Saber mas</button>
+                    <button class="button--orange">Saber mas</button>
             </div>
         </div>
+
+
         <div class="section-2__info"> 
-            <div>
+            
+              
+                <div>
+                    <h2>Educacion pensando en </h2>
+                    <h2 class="tittle_pink">Objetivos alcanzados</h2>
+                        <p>
+                            Es importante para nosotros
+                            que las metas de cada uno de nuestros
+                            estudiantes sean alcanzadas                
+                        </p>
+                        <button class="button--orange">Saber mas</button>
+                </div>
                 <img src="./public/images/section2-goals.png"
                 width="500px"
                 alt="tools"
                 height="350px"
                 >
-                <div>
-                    <h2>Educacion pensando en </h2>
-                    <h2>Objetivos alcanzados</h2>
-                        <p>
-                            Es importante para nosotros
-                             que las metas de cada uno de nuestros
-                              estudiantes sean alcanzadas                
-                        </p>
-                        <button>Saber mas</button>
-                </div>
 
-            </div>
+            
         </div>
         
 
+    </section>
+
     </main>
-    <footer id="footer"></footer>
-    <div class="footer_info">
+
+    <footer id="footer">
+    <div class="footer__info">
         <img src="./public/images/footer-logo.png"
         width="200px"
         alt="logo"
@@ -147,7 +173,7 @@
                 </form>
     </div>
 
-    <div class="footer_list">
+    <div class="footer__list">
         <table>
 
             <thead>
@@ -183,6 +209,6 @@
         </table>
 
     </div>
-    
+</footer>
 </body>
 </html>

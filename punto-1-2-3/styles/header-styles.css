@@ -1,0 +1,72 @@
+
+/*display flex posiciona el header como si fueran celdas de tablas.*/
+header {
+    display: flex;
+    /*separacion de 10 px a la izquierda y 100 a la derecha*/
+    margin: 10px 100px;
+    /*es la propiedad que alinea de forma horizontal y el space between serpara entre ellos*/
+    /* español-ingresar irán todo a la derecha y logo y lista todo a la izquierda*/
+    justify-content: space-between;
+
+}
+
+/*logo y nav de la lista deben alinearsen.*/
+/*Display pone los elementos uno al lado del otro*/
+.header__navigator{
+    display: flex;
+    /*alinear las opciones con respecto al logo*/
+    align-items: center;
+}
+
+/*selector de elemeno ul hacerle un un display flex*/
+
+/*la lista se va a presentar pegada y con puntos*/
+ul 
+{
+    display:flex;
+    /*quitar los puntos*/
+    list-style:none;
+    /*separacion*/
+    gap: 40px;
+
+}
+
+/* link de la fuente jost:
+<link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />*/
+
+nav a 
+{
+    /*ponerle color a las letras unicamente del a del van*/
+
+color: #454868;
+/*quotar subrayado*/
+text-decoration: none;
+/*grueso de las letras*/
+font-weight: 500px;
+}
+
+.header__settings {
+    display: flex;
+    align-items: center;
+    gap:60px;
+
+}
+
+.languaje
+{
+display: flex;
+align-items: center;
+gap: 10px;
+font-family: 'Jost';
+font-weight: 300;
+color: #454868;
+
+}
+
+button 
+{
+background-color: transparent;
+/*editar el borde del botón*/
+border: 1px solid #454864;
+
+}

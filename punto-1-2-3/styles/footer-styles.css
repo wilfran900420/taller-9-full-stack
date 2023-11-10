@@ -1,0 +1,67 @@
+footer{
+    display:flex;
+    background-color:#010851 ;
+
+    /*Margin top separar los suficiente con section */
+    margin-top: 120px;
+    padding: 20px 100px;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer__info{
+    width: 34%;
+}
+
+form button
+{
+    background-color:  #ED80FD;
+    color:white;
+    border:none;
+    
+}
+
+/*input--que usar para configurarlo*/
+ input{
+
+    background-color: #454868b6;
+    width: 220px;   
+    /*padding separar la letra de los bordes*/
+    padding:17px;
+    border:none;
+    border-radius: 10px;
+    margin-right: -20px;
+
+}
+
+td a {
+    color:white;
+
+
+}
+
+table{
+    font-family: 'Jost';
+    text-align: left;
+
+}
+
+th {
+    /*separar los encabezados con el resto de la tabla*/
+    height: 80px;
+
+}
+
+td {
+    /*separar los encabezados con el resto de la tabla*/
+    padding-right: 60px;
+    
+}
+
+tr {
+    /*separar los encabezados con el resto de la tabla*/
+    height: 40px;
+    
+}

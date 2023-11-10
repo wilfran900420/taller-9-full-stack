@@ -1,0 +1,42 @@
+#banner {
+margin: 200px 100px;
+
+/*poner el color de fondo, se trajo directamente desde figma*/ 
+
+background: linear-gradient(313deg, #EE9AB5 3.28%, #5961F9 97.04%);
+ 
+/*bordes ejemplo todos de 48 las esquinas excepto uno de 300 abajo a la derecha*/
+/*primera esquina superior izquierda, y va girando en manecillas del reloj*/
+border-radius: 48px 48px 300px 48px;
+
+/*padding para que el contenido interno no esté pegado al borde*/
+padding: 80px;
+display:flex;
+Color: white;
+}
+
+h1 {
+    font-family:'Jost';  
+    font-size: 55px;
+    line-height:124%;
+    letter-spacing:-1%;
+
+}
+
+#banner img {
+
+    /*cambiar el tamaño de la imagen*/
+    width: 550px;
+    height:370px;
+}
+
+.button--transparent{
+    /*backgorundo color de fondo del boton*/
+background-color:transparent;
+/*letra blanca*/
+color:white;
+border: 1px  solid;
+/* margin left es separador de cosas*/
+margin-left: 20px;
+}
+

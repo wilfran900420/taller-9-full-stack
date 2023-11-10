@@ -1,0 +1,41 @@
+#section-1{
+    display:flex;
+    /*margin de 50 de arriba y abajo y de lado de 180 para que el contenido quede igual al banner*/
+    margin: 50px 180px;
+
+    justify-content: space-between;}
+
+.section-1__inf{
+    /*hacer mas pequeño el parrafo en el div*/
+    width: 30%;
+}
+.section-1__inf p {
+  
+  Color: #454868 ;
+}
+
+.section-1__card {
+    /*ajustar la sombra*/  
+    /* lo primero posicicion x y y, segundo la difuminacion, 3ro el radio de la sombra y 4to el color de la sombra*/
+
+   box-shadow: 0px 0px 20px 10px #45486835 ;
+
+   /*coje las 3 cardas y la que tenga el minimo contenido ancho ese se lo va a dar a las otras 3 cards*/
+   width: min-content;
+   height: 195px;
+   /*se alinearon con align content sin usar flex*/
+   text-align: center;
+    border border-radius: 48px;
+    padding::25px;
+
+  }
+
+  /*solo para bajar la tarjeta del medio*/
+
+  .section-1__card-down{
+    margin-top: 40px; 
+}
+
+h3{
+  font-family: 'Jost';
+}
