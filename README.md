@@ -4,6 +4,8 @@
 <p>Profesor: Cristian Patiño</p>
 
 <h2>Link de la pagina web</h2> 
+<a ref="https://wilfran900420.github.io/taller-9-full-stack/"> Link de pagina web<a/>
+
 
 <h2>Link de figma</h2>  
 
