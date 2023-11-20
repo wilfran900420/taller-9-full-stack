@@ -1,0 +1,26 @@
+
+#verde_subrayado {  
+  color: green;
+
+}
+
+ #letra_rojo {
+  color:red;
+}
+
+#subrayado_up_down{
+  text-decoration: overline underline;
+}
+
+#letragrande {
+  font-size: 25px;
+}
+
+#letra_azul {
+  color:blue;
+}
+
+#letra_roja_subraydad {
+  color:red;
+  text-decoration: underline;
+}
