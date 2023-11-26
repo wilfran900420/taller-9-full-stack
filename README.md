@@ -4,12 +4,12 @@
 <p>Profesor: Cristian Patiño</p>
 
 <h2>Link de la pagina web</h2> 
-<a ref="https://wilfran900420.github.io/taller-9-full-stack/"> Link de pagina web </a>
+<a href="https://wilfran900420.github.io/taller-9-full-stack/"> Link de pagina web </a>
 
 
 <h2>Link de figma</h2>  
 
-<a ref="https://www.figma.com/file/h3JTbaHWwvWJzxiEmMH9JL/Wilfran-Matoma-Cruz?type=design&node-id=0%3A1&mode=design&t=aTPSPNassyJDBq5D-1"> Link de figma </a>
+<a href="https://www.figma.com/file/h3JTbaHWwvWJzxiEmMH9JL/Wilfran-Matoma-Cruz?type=design&node-id=0%3A1&mode=design&t=aTPSPNassyJDBq5D-1"> Link de figma </a>
 
 <h2>Punto 2: Diseño en HTML</h2> 
 <img src= "./public/images/Punto-2-html.png" 
