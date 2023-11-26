@@ -24,3 +24,11 @@
   color:red;
   text-decoration: underline;
 }
+
+.ejercicio-5{
+  display:flex;
+  margin: 50px 0px;
+  /*gap:30px;*/
+  /*alinear texto con respecto a la imagen*/
+  align-items: center;
+}  
