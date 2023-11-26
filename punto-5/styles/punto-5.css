@@ -28,7 +28,7 @@
 .ejercicio-5{
   display:flex;
   margin: 50px 0px;
-  /*gap:30px;*/
+  /*gap:10px;*/
   /*alinear texto con respecto a la imagen*/
   align-items: center;
 }  

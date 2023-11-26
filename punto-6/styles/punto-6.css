@@ -1,0 +1,21 @@
+
+#Negro-negrita {  
+  font-weight: bold;
+  font: size 300px;
+}
+
+#Subrayado-amarillo {  
+color: rgba(255, 255, 0, 0.733);
+font-weight: bold;
+font: size 300px;
+text-decoration: underline;
+}
+
+#subrayado-morado {  
+  color: violet;
+  font-weight: bold;
+  font: size 300px;
+  text-decoration: underline;
+  }
+
+  

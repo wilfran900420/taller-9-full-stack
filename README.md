@@ -20,6 +20,7 @@ alt= "Punto-2-html">
 alt= "Punto-2">
 <img src="./public/images/Punto-3.png"      
 alt= "Punto-3">
+
 <h2>Punto 4: Titulos</h2>
 <img src="./public/images/Punto-4.png"      
 alt= "Punto-4">
@@ -27,7 +28,24 @@ alt= "Punto-4">
 alt= "Punto-4- navegador">
 
 <h2>Punto 5: Parrafos</h2>  
-<h2>Parrafo 6: links</h2>  
+<img src="./public/images/Punto-5.png"      
+alt= "Punto-5">
+<img src="./public/images/Punto-5-html.png"      
+alt= "Punto-5-Visual">
+
+<h2>Parrafo 6: links</h2>
+<img src="./public/images/Punto-6.png"      
+alt= "Punto-5">
+<img src="./public/images/Punto-6-html.png"      
+alt= "Punto-6-Visual">
+
+
 <h2>Punto 7 y 8: Navegación</h2>
+
+<img src="./public/images/Punto-7-8.png "      
+alt= "Punto-7-8">
+<img src="./public/images/Punto-7-8-html.png"      
+alt= "Punto-7-8-html">
+
 <h2>Punto 9: Tabla</h2>
 
