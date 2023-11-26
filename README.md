@@ -49,3 +49,9 @@ alt= "Punto-7-8-html">
 
 <h2>Punto 9: Tabla</h2>
 
+<img src="./public/images/Punto-9.png "      
+alt= "Punto-9">
+<img src="./public/images/Punto-9-html.png"      
+alt= "Punto-9-html">
+
+

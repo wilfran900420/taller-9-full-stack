@@ -1,0 +1,17 @@
+table 
+{
+    background-color: yellow;
+    /*display:flex;
+    /*quitar los puntos*/
+    list-style:none;
+    /*separacion*/
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+th, td
+{
+    border: 1px solid #000;   
+}
